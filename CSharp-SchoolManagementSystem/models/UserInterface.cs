@@ -43,10 +43,7 @@ public class UserInterface
                 switch (choice)
                 {
                     case 1:
-                        Student student = new Student("Nombre", "Apellido", "DNI", "12345678",
-                                "correo@ejemplo.com", "123-456-7890", "Padre/Madre/Tutor", "Carrera",
-                                new DateOnly(2000, 1, 1),new List<double> { 80, 85, 90 });
-                        AdministratorApp.AddStudent(student);
+                        AdministratorApp.AddStudentFromUserInput();
                         break;
                     // case 2:
                     //     _library.RemoveBookFromUserInput(); 
